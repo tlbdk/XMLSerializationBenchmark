@@ -1,8 +1,8 @@
 build/
 src/jhm/build
+generated/
 .gradle/
 *.class
-
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/

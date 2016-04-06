@@ -16,7 +16,3 @@ JMH Project to test different Java XML Serialization benchmarks
 
     gradlew jmhjar
     java -jar build/libs/jmh-gradle-ide-jmh.jar
-
-### on Eclipse
-
-select `HelloBenchmark` and `Run As` > `Java Application`
