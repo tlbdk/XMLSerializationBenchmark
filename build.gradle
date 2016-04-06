@@ -43,7 +43,7 @@ idea.module {
 tasks.withType(AbstractCompile)*.options*.encoding = "UTF-8"
 
 jmh.jmhVersion = '1.10.+'
-tasks.jmh.main = 'dk.nversion.xml.SampleBenchmark'
+tasks.jmh.main = 'dk.nversion.xml.SOAPBenchmark'
 
 jmhJar {
 	manifest.attributes 'Main-Class': tasks.jmh.main
